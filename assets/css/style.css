@@ -8,6 +8,7 @@ body {
 
 header {
 	position: fixed;
+	z-index: 10;
 	top: 0px;
 	background-color: #fff;
 	width: 100%;
@@ -29,6 +30,7 @@ header {
 	margin-right: 10%;
 	color: #aaa;
 	width: 29%
+
 }
 
 .header-hyperlinks:visited {
