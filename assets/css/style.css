@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #ccc;
+	background-image: url("../images/concrete_seamless.png");
 }
 
 /*----------  Header  --------*/
@@ -15,6 +15,7 @@ header {
 }
 
 #name {
+	display: inline-block;
 	background-color: #4aaaa5;
 	margin-left: 10%;
 	padding: 15px;
@@ -27,10 +28,12 @@ header {
 	float: right;
 	margin-right: 10%;
 	color: #aaa;
+	width: 29%
 }
 
 .header-hyperlinks:visited {
 	color: #aaa;
+	float: left;
 }
 
 #about, #portfolio, #contact {
@@ -43,6 +46,7 @@ header {
 
 #under-header {
 	margin-top: 12%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #main-content {
@@ -50,9 +54,17 @@ header {
 	margin-left: 10%;
 	margin-bottom: 20px;
 	width: 50%;
-	height: 350px;
-	padding: 15px;
+	height: 450px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 15px;
 	background-color: white;
+}
+
+#main-title {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, serif;
 }
 
 #profile-photo {
@@ -72,17 +84,28 @@ header {
 #connect {
 	text-align: center;
 	color: #4aaaa5;
+	font-family: 'Georgia', Times, serif;
 }
 
 .contact-img {
 	width: 60px;
 	height: 60px;
-	align: center;
 }
+
+.logos {
+	float: left;
+    width: 23.3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
 
 /*----------  Footer  --------*/
 
 footer {
+	border-top:	5px;
+	border-top-color: #4aaaa5; 
 	clear: both;
 	height: 500px;
 	bottom: 0px;

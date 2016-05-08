@@ -3,31 +3,30 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
-	<!--<link rel="stylesheet" type="text/css" href="assets\css\style-contact.css">-->
+	<link rel="stylesheet" type="text/css" href="assets\css\style-contact.css">
 	<title>Contact</title>
 </head>
 <body>
 	<header>
-		<div id="header-left">
-			<h1 id="name">Ryan Jarrell</h1>
-		</div>
+		<h1 id="name">Ryan Jarrell</h1>
 		<div class="header-links">
 			<a href="index.html" class="header-hyperlinks"><h4 id="about">About</h4></a>
-			<a href="portfolio.html" class="header-hyperlinks"><h4 id="about">Portfolio</h4></a>
-			<a href="contact.html" class="header-hyperlinks"><h4 id="about">Contact</h4></a>
+			<a href="portfolio.html" class="header-hyperlinks"><h4 id="portfolio">Portfolio</h4></a>
+			<a href="contact.html" class="header-hyperlinks"><h4 id="contact">Contact</h4></a>
 		</div>
 	</header>
 	<div id="under-header">
 		<div id="main-content">
 			<h2 id="main-title">Contact</h2>
-			<form>
-			Name: <br>
-			<input id="name-box "type="text" name="name"/><br>
-			Email: <br>
-			<input id="email-box" type="text" name="email"/><br>			
-			Message: <br>
-			<input id="type-box" type="text" name="message"/><br>
-			<input id="submit" name="submit" text="Submit"/><br>
+			<form class="contact-form">
+				Name <br>
+				<input class="contact-box" id="name-box" type="text" name="name" placeholder="John Snow" /><br>
+				Email <br>
+				<input class="contact-box" id="email-box" type="text" name= "email" 
+				placeholder="example@gmail.com"/><br>
+				Message <br>
+				<textarea class="contact-box" id="message-box" type="text" name="message" rows="8" cols="100%"/></textarea><br>
+				<input id="submit" type="submit" name="submit"/><br>
 			</form>
 		</div>
 		<div class="contact-info">

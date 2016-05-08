@@ -1,0 +1,30 @@
+#portfolio-main-content {
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	width: 50%;
+	height: 900px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-color: white;
+}
+
+.portfolio-images {
+	height: 200px;
+	width: 266px;
+}
+
+
+#hangman, #trivia-game, #rock-paper {
+	float: left;
+}
+
+#rpg-game, #widget {
+	float: right;
+}
+
+.block-text {
+	background-color: #4aaaa5;
+}
