@@ -1,4 +1,4 @@
-body {
+/* body {
 	margin: 0;
 	padding: 0;
 	background-color: #ccc;
@@ -6,7 +6,7 @@ body {
 
 /*----------  Header  --------*/
 
-header {
+*header {
 	position: fixed;
 	top: 0px;
 	background-color: #fff;
@@ -41,11 +41,11 @@ header {
 
 /*----------  Body  --------*/
 
-#under-header {
+/*#under-header {
 	margin-top: 12%;
 }
 
-#main-content {
+#contact-form {
 	float: left;
 	margin-left: 10%;
 	margin-bottom: 20px;
@@ -55,12 +55,6 @@ header {
 	background-color: white;
 }
 
-#profile-photo {
-	float: left;
-	padding-right: 10px;
-	width: 200px;
-	height: 150px;
-}
 
 .contact-info {
 	float:right;
@@ -82,10 +76,10 @@ header {
 
 /*----------  Footer  --------*/
 
-footer {
+/*footer {
 	clear: both;
 	height: 500px;
 	bottom: 0px;
 	text-align: center;
 	background-color: #666666;
-}
+} */
