@@ -1,14 +1,14 @@
-#portfolio-main-content {
-	float: left;
+.main-content {
+	/*float: left;
 	margin-left: 10%;
 	margin-bottom: 20px;
-	width: 50%;
+	width: 50%;*/
 	height: 900px;
-	padding-left: 25px;
+	/*padding-left: 25px;
 	padding-right: 25px;
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: white;
+	background-color: white;*/
 }
 
 #portfolio-section {
