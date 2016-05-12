@@ -40,6 +40,10 @@ header {
 	float: left;
 }
 
+.header-hyperlinks:hover {
+	color: #4aaaa5;
+}
+
 #about, #portfolio, #contact {
 	float: left;
 	/*padding: 20px;*/
@@ -93,9 +97,11 @@ header {
 
 .contact-info {
 	float:right;
-	width: 20%;
+	
+	width: 270px;
 	margin-right: 10%;
 	background-color: white;
+	padding-top: 20px;
 }
 
 #connect {
@@ -103,26 +109,88 @@ header {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, serif;
 	font-size: 25px;
+	height: 50%;
+	border-bottom: 1.2px solid #ccc;
+	width: 200px;
+	margin-left: 37px;
+	padding-bottom: 20px;
+	
+
 }
 
 .contact-img {
+	display: inline-block;
 	width: 60px;
 	height: 60px;
 }
 
+.contact-img:hover {
+	width: 70px;
+	height: 70px;
+}
+
 .logos {
-	float: left;
+	width: 100%;
+	padding: 25px 0px 20px 31px;
+
+}
+
+.logo {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+
+}
+
+.left-logo {
+	background-image: url('../images/git_logo.png');
+	background-size: 60px 60px;
+}
+
+.middle-logo {
+	margin: 0px 10px 0px 10px;
+	background-image: url('../images/linkedin_logo.png');
+	background-size: 60px 60px;
+
+}
+
+.right-logo {
+	background-image: url('../images/stack_overflow_logo.png');
+	background-size: 60px 60px;
+}
+
+/* ___ Logos on hover _________  */
+
+.left-logo:hover {
+	background-image: url('../images/git_logo_hover.png');
+	background-size: 60px 60px;
+}
+
+.middle-logo:hover {
+	margin: 0px 10px 0px 10px;
+	background-image: url('../images/linkedin_logo_hover.png');
+	background-size: 60px 60px;
+
+}
+
+.right-logo:hover {
+	background-image: url('../images/stack_overflow_logo_hover.png');
+	background-size: 60px 60px;
+}
+
+
+	/*float: left;
     width: 23.3%;
     padding-left: 5%;
-    padding-right: 5%;
-}
+    padding-right: 5%;*/
+
 
 
 
 /*----------  Footer  --------*/
 
 .footer {
-	position: relative;
+	/*position: relative;*/
 	border-top: 5px solid #4aaaa5;
 	clear: both;
 	height: 100px;
@@ -142,11 +210,12 @@ header {
 
 #footer-text {
 	display: inline-block;
-	position: absolute;
+	/*position: absolute;*/
 	color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
 	vertical-align: middle;
 	text-align: center;
+	padding-top: 20px;
 
 }
 

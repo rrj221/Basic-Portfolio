@@ -108,10 +108,15 @@ header {
 }
 
 .logos {
-	float: left;
-    width: 23.3%;
+	display: inline;
+    /*width: 23.3%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 5%;*/
+}
+
+.three-logos {
+	display: inline-block;
+	margin: 0px 5% 0px 17%; 
 }
 
 
