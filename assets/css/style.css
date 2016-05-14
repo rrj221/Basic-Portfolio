@@ -16,21 +16,27 @@ header {
 	border-bottom: 3px solid #ccc;
 }
 
-#name {
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia;
+}
+
+
+
+.name {
 	display: inline-block;
 	background-color: #4aaaa5;
 	margin-left: 10%;
-	padding: 2%;
+	padding: 30px 25px 30px 25px;
 	text-align: center;
 	color: white;
 	float: left;
 	height: 96%;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .header-links {
 	float: right;
-	margin-right: 55px;
+	margin-right: 67px;
 	color: #aaa;
 	width: 450px;
 
@@ -39,6 +45,7 @@ header {
 .header-hyperlinks {
 	color: #aaa;
 	display: inline-block;
+	font-size: 22px;
 
 }
 
@@ -51,7 +58,7 @@ header {
 	/*padding: 20px;*/
 	padding: 0px 20px 0px 20px;
 	margin: 40px 0px 20px 0px;
-	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-family: 'Arial', Times, "Times New Roman", serif;
 
 }
 
@@ -85,11 +92,12 @@ header {
 
 #main-title {
 	color: #4aaaa5;
-	font-family: 'Georgia', Times, serif;
+	font-family: Georgia, Times, serif;
+	line-height: 1;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 	border-bottom: 2px solid #ccc;
-	font-size: 25px;
+	font-size: 40px;
 }
 
 
@@ -182,14 +190,6 @@ header {
 	background-image: url('../images/stack_overflow_logo_hover.png');
 	background-size: 60px 60px;
 }
-
-
-	/*float: left;
-    width: 23.3%;
-    padding-left: 5%;
-    padding-right: 5%;*/
-
-
 
 
 /*----------  Footer  --------*/
